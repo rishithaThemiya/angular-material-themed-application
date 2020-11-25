@@ -1,0 +1,15 @@
+<p>create-country works!</p>
+
+<mat-card>
+
+    <mat-form-field appearance="fill">
+        <mat-label>Enter country code</mat-label>
+        <input [(ngModel)] = "country.id" [formControl]="id" name="id" id="id" placeholder="Ex. +94">
+      </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <mat-label>Enter some input</mat-label>
+        <input [(ngModel)] = "country.name" [formControl]="name" name="name" id="name" placeholder="Ex. Srilanka">
+      </mat-form-field>
+
+</mat-card>
